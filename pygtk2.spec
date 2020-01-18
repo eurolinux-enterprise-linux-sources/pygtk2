@@ -15,7 +15,7 @@
 
 Name: pygtk2
 Version: 2.24.0
-Release: 7%{?dist}
+Release: 9%{?dist}
 License: LGPLv2+
 Group: Development/Languages
 Summary: Python bindings for GTK+
@@ -163,6 +163,12 @@ rm -fr $RPM_BUILD_ROOT
 %{_datadir}/gtk-doc/html/pygtk
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.24.0-9
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.24.0-8
+- Mass rebuild 2013-12-27
+
 * Tue Mar 02 2013 Colin Walters <walters@verbum.org> - 2.24.0-7
 - Patch from mbarnes to hopefully fix multilib conflict
 
